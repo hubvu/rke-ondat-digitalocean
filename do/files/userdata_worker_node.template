@@ -1,0 +1,11 @@
+#!/bin/bash -x
+
+export DEBIAN_FRONTEND=noninteractive
+
+# load required kernel modules
+sudo modprobe --verbose --all target_core_user target_core_mod target_core_mod tcm_loop configfs uio
+
+curl -sL https://releases.rancher.com/install-docker/${docker_version}.sh | sh
+sudo usermod -aG docker ${username}
+
+${register_command} --worker

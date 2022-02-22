@@ -17,6 +17,9 @@ crash.log
 # ignore user modified terraform.tfvars
 terraform.tfvars
 
+# ignore lock file
+.terraform.lock.hcl
+
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
 override.tf

@@ -33,3 +33,9 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+# ingore senstitive files that are generated after terraform apply
+kube_config_server.yaml
+kube_config_workload.yaml
+id_rsa
+id_rsa.pub

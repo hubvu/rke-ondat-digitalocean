@@ -27,4 +27,4 @@ rancher_kubernetes_version = "v1.21.8+k3s1"
 rancher_version = "v2.6.3"
 
 # Kubernetes version to use for managed workload cluster
-workload_kubernetes_version = "v1.20.6-rancher1-1"
+workload_kubernetes_version = "v1.22.6-rancher1-1"

@@ -1,6 +1,6 @@
 # DigitalOcean Rancher Quickstart
 
-* Two Kubernetes clusters (1 K3S and 1 RKE) will be created from droplets running Ubuntu 20.04 and Docker.
+* Two Kubernetes clusters (1 K3s and 1 RKE) will be created from droplets running Ubuntu 20.04 and Docker.
   1. **Rancher Server Cluster** >>> Single-node K3s Cluster
   2. **RKE Workload Cluster** >>> 3 Master Nodes & 5 Worker Nodes Cluster 
 * Both instances will be accessible over SSH using the SSH keys `id_rsa` and `id_rsa.pub`.

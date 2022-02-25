@@ -47,7 +47,7 @@
 | <a name="input_do_token"></a> [do\_token](#input\_do\_token) | DigitalOcean API token used to create infrastructure | `string` | n/a | yes |
 | <a name="input_rancher_server_admin_password"></a> [rancher\_server\_admin\_password](#input\_rancher\_server\_admin\_password) | Admin password to use for Rancher server bootstrap | `string` | n/a | yes |
 | <a name="input_cert_manager_version"></a> [cert\_manager\_version](#input\_cert\_manager\_version) | Version of cert-manager to install alongside Rancher (format: 0.0.0) | `string` | `"1.5.3"` | no |
-| <a name="input_do_region"></a> [do\_region](#input\_do\_region) | DigitalOcean region used for all resources | `string` | `"nyc1"` | no |
+| <a name="input_do_region"></a> [do\_region](#input\_do\_region) | DigitalOcean region used for all resources | `string` | `"lon1"` | no |
 | <a name="input_docker_version"></a> [docker\_version](#input\_docker\_version) | Docker version to install on nodes | `string` | `"19.03"` | no |
 | <a name="input_droplet_size"></a> [droplet\_size](#input\_droplet\_size) | Droplet size used for all droplets | `string` | `"s-2vcpu-4gb"` | no |
 | <a name="input_prefix"></a> [prefix](#input\_prefix) | Prefix added to names of all resources | `string` | `"quickstart"` | no |

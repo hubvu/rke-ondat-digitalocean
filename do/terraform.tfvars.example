@@ -21,7 +21,7 @@ droplet_size = "s-4vcpu-8gb"
 prefix = "demo"
 
 # Kubernetes version to use for Rancher server cluster
-rancher_kubernetes_version = "v1.21.8+k3s1"
+rancher_kubernetes_version = "v1.22.6+k3s1"
 
 # Rancher server version (format: v0.0.0)
 rancher_version = "v2.6.3"
